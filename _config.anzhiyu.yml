@@ -1,8 +1,8 @@
 menu:
-  # 文章:
+  文章:
   #   隧道: /archives/ || anzhiyu-icon-box-archive
-  #   分类: /categories/ || anzhiyu-icon-shapes
-  #   标签: /tags/ || anzhiyu-icon-tags
+    分类: /categories/ || anzhiyu-icon-shapes
+    标签: /tags/ || anzhiyu-icon-tags
 
   # 友链:
   #   友人帐: /link/ || anzhiyu-icon-link
@@ -10,21 +10,21 @@ menu:
   #   留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
+    音乐馆: /music/ || anzhiyu-icon-music
     追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
-  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
+    相册集: /album/ || anzhiyu-icon-images
+    小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  # 关于:
-  #   关于本人: /about/ || anzhiyu-icon-paper-plane
-  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  关于:
+    关于本人: /about/ || anzhiyu-icon-paper-plane
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
   enable: true
   travelling: false
-  clock: false
+  clock: true
   menu:
     - title: 网页
       item:
@@ -49,7 +49,7 @@ mourn:
 # Code Blocks (代码相关)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -69,8 +69,8 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+  Github: https://github.com/tangzhisanyao || anzhiyu-icon-github
+  BiliBili: https://space.bilibili.com/96686020 || anzhiyu-icon-bilibili
 
 # 作者卡片 状态
 author_status:
@@ -228,7 +228,7 @@ anchor: false
 # toc (目录)
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
   style_simple: false # for post
@@ -415,11 +415,11 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2023
   custom_text:
   runtime:
-    enable: false
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    enable: true
+    launch_time: 19/10/2023 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -548,7 +548,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: https://hm.baidu.com/hm.js?4ecb03bfab0153ce8abdb360131f025d
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -840,9 +840,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -985,7 +985,7 @@ instantpage: true
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之间添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (图片懒加载)
