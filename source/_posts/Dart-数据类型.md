@@ -52,6 +52,8 @@ description:
 
 ### 浮点数
 
+1. `toStringAsFixed()`：将浮点数格式化为指定小数位的字符串
+
 ## 字符串
 
 1. `lenth`：返回字符串的长度
